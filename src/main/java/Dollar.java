@@ -12,4 +12,10 @@ public class Dollar {
     public Dollar times(int multiplier) {
         return new Dollar(amount * multiplier);
     }
+
+    public boolean equals(Object object) {
+        // TODO: NULL 값이나 다른 객체와의 비교
+        Dollar dollar = (Dollar)object;
+        return amount == dollar.amount;
+    }
 }
