@@ -1,11 +1,13 @@
+package com.tdd.domain;
+
 /**
  * Created by seongjuhyeon on 11/21/15.
  */
 public class Dollar {
 
-    int amount = 0;
+    private int amount = 0;
 
-    Dollar(int amount) {
+    public Dollar(int amount) {
         this.amount = amount;
     }
 
