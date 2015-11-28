@@ -11,7 +11,10 @@ public class Dollar {
         this.amount = amount;
     }
 
-    public Dollar times(int multiplier) {
+    /**
+     * 곱수에 곱하기한 Dollar객체 생성.
+     */
+    public Dollar times(final int multiplier) {
         return new Dollar(amount * multiplier);
     }
 
