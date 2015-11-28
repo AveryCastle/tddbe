@@ -1,3 +1,7 @@
+package com.tdd.domain;
+
+import com.tdd.domain.Dollar;
+
 import org.junit.Test;
 
 import static junit.framework.Assert.assertFalse;
