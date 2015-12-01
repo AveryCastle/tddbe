@@ -16,3 +16,6 @@
 
 5장. 솔직히 말하자면(Franc-ly Speaking)
  - http://pikanpie.tistory.com/56
+
+6장. 돌아온 '모두를 위한 평등'(Equality for All, Redux)
+ - http://pikanpie.tistory.com/57
