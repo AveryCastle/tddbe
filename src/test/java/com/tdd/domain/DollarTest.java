@@ -1,25 +1,26 @@
 package com.tdd.domain;
 
-import com.tdd.domain.Dollar;
-
 import org.junit.Test;
 
 import static junit.framework.Assert.assertFalse;
 import static junit.framework.Assert.assertTrue;
 import static org.junit.Assert.assertEquals;
 
-import com.tdd.domain.Dollar;
-
 /**
- * Created by seongjuhyeon on 11/21/15.
+ * Created by seongjuhyeon on 12/1/15.
  */
-public class MoneyTest {
+public class DollarTest {
 
     @Test
-    public void testEquals() throws Exception {
+    public void testMultiplication() {
+        Dollar five = new Dollar(5);
+        assertEquals(new Dollar(10), five.times(2));
+        assertEquals(new Dollar(15), five.times(3));
+    }
+
+    @Test
+    public void testEquality() {
         assertTrue(new Dollar(5).equals(new Dollar(5)));
         assertFalse(new Dollar(5).equals(new Dollar(10)));
-        assertTrue(new Franc(5).equals(new Franc(5)));
-        assertFalse(new Franc(5).equals(new Franc(10)));
     }
 }
