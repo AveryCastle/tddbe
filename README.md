@@ -19,3 +19,6 @@
 
 6장. 돌아온 '모두를 위한 평등'(Equality for All, Redux)
  - http://pikanpie.tistory.com/57
+
+7장. 사과와 오렌지(Apples and Oranges)
+ - http://pikanpie.tistory.com/58
