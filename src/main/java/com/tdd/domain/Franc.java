@@ -9,7 +9,10 @@ public class Franc extends Money {
         this.amount = amount;
     }
 
-    public Franc times(final int multiplier) {
+    /**
+     * 곱수에 곱하기한 Franc객체 생성.
+     */
+    public Money times(final int multiplier) {
         return new Franc(amount * multiplier);
     }
 }
