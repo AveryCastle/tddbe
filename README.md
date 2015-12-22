@@ -1,6 +1,6 @@
 # TDD(Test Driven Development: By Example)
 
-[![Build Status](https://travis-ci.org/JuHyun/tdd.svg?branch=master)](https://travis-ci.org/JuHyun/tdd)
+[![Build Status](https://travis-ci.org/JuHyun/tddbe.svg?branch=master)](https://travis-ci.org/JuHyun/tddbe)
 
 1장 다중 통화를 지원하는 Money 객체(Money Example)
  - http://pikanpie.tistory.com/43
