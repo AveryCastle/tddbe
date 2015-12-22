@@ -6,9 +6,6 @@ import static junit.framework.Assert.assertFalse;
 import static junit.framework.Assert.assertTrue;
 import static org.junit.Assert.assertEquals;
 
-/**
- * Created by seongjuhyeon on 12/1/15.
- */
 public class DollarTest {
 
     @Test
