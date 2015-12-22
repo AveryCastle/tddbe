@@ -1,5 +1,6 @@
 package com.tdd.domain;
 
+import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertFalse;
 import static junit.framework.Assert.assertTrue;
 
@@ -14,5 +15,11 @@ public class MoneyTest {
         assertTrue(Money.franc(5).equals(Money.franc(5)));
         assertFalse(Money.franc(5).equals(Money.franc(10)));
         assertFalse(Money.franc(5).equals(Money.dollar(5)));
+    }
+
+    @Test
+    public void testCurrency() {
+        assertEquals("USD", Money.dollar(1).currency());
+        assertEquals("CHF", Money.franc(1).currency());
     }
 }

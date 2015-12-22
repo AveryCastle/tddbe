@@ -1,18 +1,20 @@
 package com.tdd.domain;
 
-/**
- * Created by seongjuhyeon on 11/21/15.
- */
 public class Dollar extends Money {
 
-    public Dollar(int amount) {
-        this.amount = amount;
+    public Dollar(int amount, String currency) {
+        super(amount, currency);
     }
 
     /**
      * 곱수에 곱하기한 Dollar객체 생성.
      */
-    public Dollar times(final int multiplier) {
-        return new Dollar(amount * multiplier);
+    public Money times(int multiplier) {
+        return Money.dollar(amount * multiplier);
+    }
+
+    @Override
+    public String currency() {
+        return currency;
     }
 }
