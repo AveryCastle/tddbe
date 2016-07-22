@@ -1,0 +1,19 @@
+language: java
+
+sudo: false
+
+jdk:
+  - oraclejdk8
+
+#install: true
+
+before_script:
+  - ./gradlew --version
+
+script:
+  - ./gradlew assemble
+  - ./gradlew --version
+  - ./gradlew test
+
+notifications:
+  email: false
