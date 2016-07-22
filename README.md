@@ -1,4 +1,4 @@
-# TDD(Test Driven Development: By Example).
+# TDD(Test Driven Development: By Example)
 
 [![Build Status](https://travis-ci.org/JuHyun/tddbe.svg?branch=master)](https://travis-ci.org/JuHyun/tddbe)
 
